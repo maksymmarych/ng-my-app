@@ -8,10 +8,16 @@ import { Component, OnInit, ViewEncapsulation, ChangeDetectionStrategy } from '@
   changeDetection: ChangeDetectionStrategy.Default
 })
 export class ServerComponent implements OnInit {
+  serverId: number = 10;
+  serverStatus: string = 'offline';
 
   constructor() { }
 
   ngOnInit() {
+  }
+
+  getServerStatus() {
+    return this.serverStatus;
   }
 
 }
