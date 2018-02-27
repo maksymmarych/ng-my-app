@@ -5,3 +5,7 @@
 .online {
   color: whitesmoke;
 }
+
+.onlineBorder {
+  border: 5px black;
+}
